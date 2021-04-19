@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeniCode</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <div class=content.fluid>
+        <!--=====================================
+	    CABEZOTE   
+    	======================================-->
+        <header class="row">
+            <figure id="logotipo" class ="col-lg-3 col-md-3 col-sm-3 col-xs-12"><!--lg-2 -->
+                <img src="img/logo.png" alt="Logo">
+            </figure>
+            <div class ="col-lg-2 col-md-2 col-sm-1 col-xs-0"><!--lg-4 -->
+                <br>
+            </div>
+            <nav class ="col-lg-7 col-md-7 col-sm-8 col-xs-12"> <!--lg-6 -->
+                <br>
+                <ul>
+                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Paletas</a></li>
+                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Bases</a></li>
+                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Mascaras</a></li>
+                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Labiales</a></li>
+                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Contornos</a></li>
+                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Delineador</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--=====================================
+        SLIDESHOW
+    	======================================-->
+        <div id=slide class=row>
+            <ul>
+                <li>
+                    <img src="img/slide/1.png">
+                    <div class=textoSlide><h1>Lorem Ipsum <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3></div>
+                </li>
+                <li>
+                    <img src="img/slide/2.png">
+                    <div class=textoSlide><h1>Lorem Ipsum <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3></div>
+                </li>
+                <li>
+                    <img src="img/slide/3.png">
+                    <div class=textoSlide><h1>Lorem Ipsum <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3></div>
+                </li>
+                <li>
+                    <img src="img/slide/4.png">
+                    <div class=textoSlide><h1>Lorem Ipsum <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3></div>
+                </li>
+            </ul>
+            <!--paginadores-->
+            <ol id="paginacion">
+                <li item=1><span class="fa fa-circle"></span></li>
+                <li item=2><span class="fa fa-circle"></span></li>
+                <li item=3><span class="fa fa-circle"></span></li>
+                <li item=4><span class="fa fa-circle"></span></li>
+                <!--item es un atributo-->
+            </ol>
+            <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
+		    <div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
+        </div>
+        <!--=====================================
+	    GALERIA 
+	    ======================================-->
+        <div id="galeria" class="row">
+            <ul>
+                <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/1.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/2.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/3.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/4.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/5.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/6.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/1.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/2.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/3.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/4.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/5.png"></li>
+			    <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/6.png"></li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="js/slide.js"></script>
+    <script src="js/galery.js"></script>
+</body>
+</html>
