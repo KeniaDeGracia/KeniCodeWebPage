@@ -10,31 +10,47 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body>
+    <section id="fotoFondo"></section>
     <div class=content.fluid>
         <!--=====================================
 	    CABEZOTE   
     	======================================-->
-        <header class="row">
-            <figure id="logotipo" class ="col-lg-3 col-md-3 col-sm-3 col-xs-12"><!--lg-2 -->
+        <header id="cabezote" class="row">
+		
+            <figure id="logotipo" class="col-lg-2 col-md-3 col-sm-3 col-xs-12">
+                
                 <img src="img/logo.png" alt="Logo">
+    
             </figure>
-            <div class ="col-lg-2 col-md-2 col-sm-1 col-xs-0"><!--lg-4 -->
+    
+            <div class="col-lg-4 col-md-2 col-sm-1 col-xs-0">
+			
                 <br>
+    
             </div>
-            <nav class ="col-lg-7 col-md-7 col-sm-8 col-xs-12"> <!--lg-6 -->
-                <br>
+    
+            <div id="btnMovil" class="col-lg-0 col-md-0 col-sm-0 col-xs-12">
+                
+                <span class="fa fa-bars"></span>	
+    
+            </div>
+    
+            <nav class="col-lg-6 col-md-7 col-sm-8 col-xs-0">
+                
                 <ul>
-                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Paletas</a></li>
-                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Bases</a></li>
-                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Mascaras</a></li>
-                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Labiales</a></li>
-                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Contornos</a></li>
-                    <li class ="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Delineador</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#cabezote">Inicio</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioGaleria">Galería</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioMouse">Mouse</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioScroll">Scroll</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#inicioFormulario">Formulario</a></li>
+                    <li class="col-lg-2 col-md-2 col-sm-2 col-xs-12"><a href="#">Angular</a></li>
                 </ul>
+    
             </nav>
+    
         </header>
         <!--=====================================
-        SLIDESHOW
+        SLIDESHOW 
     	======================================-->
         <div id=slide class=row>
             <ul>
@@ -69,6 +85,15 @@
         <!--=====================================
 	    GALERIA 
 	    ======================================-->
+        <h1 id="inicioGaleria" class="row titulos">
+		
+            <hr>
+    
+            GALERÍA DE IMÁGENES
+    
+            <hr>
+    
+        </h1>
         <div id="galeria" class="row">
             <ul>
                 <li class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><img src="img/galeria/1.png"></li>
@@ -86,8 +111,189 @@
             </ul>
 
         </div>
+        <!--=====================================
+        EFECTO DE MOUSE
+        ======================================-->
+
+        <h1 id="inicioMouse" class="row titulos">
+            
+            <hr>
+
+            MOVIMIENTO CON EL MOUSE
+
+            <hr>
+
+        </h1>
+
+        <div id="efectoMouse" class="row">
+            
+            <figure></figure>
+            <figure></figure>
+            <figure></figure>
+
+        </div>
+        <!--=====================================
+	    SCROLL
+	    ======================================-->
+        <h1 id="inicioScroll" class="row titulos">
+		
+            <hr>
+    
+            EFECTOS CON EL SCROLL
+    
+            <hr>
+    
+        </h1>
+
+        <div id="scroll">
+
+            <!-- ARTÍCULO 1	 -->
+
+            <article class="row">
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+                <aside class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                    <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                        <img src="img/galeria/1.png">	
+                    </figure>
+                    <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis qui repellat, aperiam amet dignissimos.</p>
+                        <button>Leer Más</button>
+                    </div>
+                </aside>
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+            </article>
+
+            <!-- ARTÍCULO 2	 -->
+
+            <article class="row">
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+                <aside class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                    <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                        <img src="img/galeria/2.png">	
+                    </figure>
+                    <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis qui repellat, aperiam amet dignissimos.</p>
+                        <button>Leer Más</button>
+                    </div>
+                </aside>
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+            </article>
+            <!-- ARTÍCULO 3	 -->
+
+            <article class="row">
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+                <aside class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                    <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                        <img src="img/galeria/3.png">	
+                    </figure>
+                    <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis qui repellat, aperiam amet dignissimos.</p>
+                        <button>Leer Más</button>
+                    </div>
+                </aside>
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+            </article>
+
+            <!-- ARTÍCULO 4	 -->
+
+            <article class="row">
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+                <aside class="col-lg-8 col-md-8 col-sm-10 col-xs-12">
+                    <figure class="col-lg-3 col-md-5 col-sm-6 col-xs-12">
+                        <img src="img/galeria/4.png">	
+                    </figure>
+                    <div class="col-lg-9 col-md-7 col-sm-6 col-xs-12">
+                        <h1>Lorem Ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perspiciatis qui repellat, aperiam amet dignissimos.</p>
+                        <button>Leer Más</button>
+                    </div>
+                </aside>
+                <div class="col-lg-2 col-md-2 col-sm-1 col-xs-0"><br></div>
+            </article>
+	
+        </div>
+        <!--=====================================
+        FORMULARIO
+        ======================================-->
+
+        <h1 id="inicioFormulario" class="row titulos">
+            <hr>VALIDACIÓN FORMULARIO<hr>
+        </h1>
+    
+        <div id="formulario" class="row">
+            <form method="post" action="form.php" onsubmit="return mf.validarFormulario()">
+                
+                <h1>Ingrese sus datos</h1>
+    
+                <label for="nombre">Ingrese su usuario: <span class="obligatorio">*Campo Obligatorio</span></label>
+                <input id="nombre" class="validar" type="text" placeholder="Escriba su usuario con mínimo 2 caracteres, máximo 6 caracteres" required>
+    
+                <label for="password">Ingrese su contraseña: <span class="obligatorio">*Campo Obligatorio</span></label>
+                <input id="password" class="validar" type="password" placeholder="Escriba su contraseña con mínimo 8 y maximo 15 caracteres; debe incluir: letras en mayúscula, en minúscula y números" maxlength="15" required>
+    
+                <label for="email">Ingrese su correo electrónico: <span class="obligatorio">*Campo Obligatorio</span></label>
+                <input id="email" class="validar" type="email" placeholder="Escriba su correo correctamente" required>
+    
+                <label for="color">Elija su color</label>
+                <select id="color">
+                    <option>Seleccione</option>
+                    <option>Amarillo</option>
+                    <option>Rojo</option>
+                    <option>Azul</option>
+                </select>
+    
+                <br>
+                <hr>
+    
+                <p>Seleccione Animal:</p>
+                <input type="checkbox" id="perro">
+                <label for="perro" class="box"><span></span>Perro</label>
+                <input type="checkbox" id="gato">
+                <label for="gato" class="box"><span></span>Gato</label>
+                <input type="checkbox" id="conejo">
+                <label for="conejo" class="box"><span></span>Conejo</label>
+    
+                <hr>
+    
+                <p>Seleccione forma de pago:</p>
+                <input type="radio" id="efectivo" name="pago" checked>
+                <label for="efectivo" class="radio"><span></span>Efectivo</label>
+                <input type="radio" id="credito" name="pago">
+                <label for="credito" class="radio"><span></span>Crédito</label>
+    
+                <br>
+    
+                <hr>
+    
+                <label for="mensaje"></label>
+                <textarea id="mensaje" rows="10" required></textarea>
+    
+                <input type="checkbox" id="terminos">
+                <label for="terminos" class="box"><span></span><a href="archivo.pdf" target="_blank">Acepto términos y condiciones</a></label>
+    
+                
+                <label id="labelEnviar"></label>
+                <input type="submit" value="Enviar">
+    
+            </form>
+    
+        </div>
+        <!--=====================================
+        Pie de pagina
+        ======================================-->
+        <footer class="fila">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">&copy; Todos los derechos reservados.</div>
+        </footer>
+		
     </div>
     <script src="js/slide.js"></script>
     <script src="js/galery.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/botonMovil.js"></script>
 </body>
 </html>

@@ -8,6 +8,7 @@ var pg = {
     lightbox: null,
     animacionGaleria: "fade"
 
+	
 }
 /*=============================================
 OBJETO CON LOS MÉTODOS DEL SLIDE
